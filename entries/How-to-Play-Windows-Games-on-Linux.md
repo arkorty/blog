@@ -143,3 +143,5 @@ Now go ahead, launch *Elden Ring* or *Cyberpunk 2077* on Linux — and join the 
 ---
 
 ### Pro Tip
+
+Bookmark [**ProtonDB**](https://www.protondb.com/) — a community-driven database where Linux gamers share compatibility reports and tweaks for running Windows games through Proton.
