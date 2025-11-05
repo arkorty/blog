@@ -2,8 +2,6 @@ Tags: #linux #gaming #wine #proton #lutris #steam
 
 ![Linux Gaming Setup](https://raw.githubusercontent.com/arkorty/blog/refs/heads/main/blob/linux-gaming-setup.jpeg "Linux Gaming Setup")
 
-# How to Install and Play Windows Games on Linux
-
 **Co-authored by ChatGPT**
 
 Linux is a phenomenal operating system, and thanks to tools like **Wine**, **Proton**, and **Lutris**, playing your favorite Windows games is now easier than ever.  
