@@ -4,21 +4,21 @@ Tags: #webdev #golang #htmx #performance #nextjs #optimization #backend
 
 **Co-authored by LLMs**
 
-# Rebuilding My Portfolio: Faster, Leaner, and Built for the Web That Actually Exists
+# Rebuilding My Website: Faster and Leaner
 
-I recently rebuilt my portfolio website, and the project turned out to be a great reminder of how modern web stacks can feel powerful—but also unnecessarily heavy—when all you really need is speed and clarity.
+I recently rebuilt my website, and the project turned out to be a great reminder of how modern web stacks can feel powerful—but also unnecessarily heavy—when all you really need is speed and clarity.
 
 My old site was built with Next.js. It started as a borrowed template and slowly grew into a bundle of features: GitHub activity widgets, sandboxed project previews, a little 3D solar system, code-typing animations, and other decorative interactions. All of it worked—just not quickly.
 
-The site consistently took **over one second** to become interactive. For a personal portfolio, that delay felt wasteful. Most visitors aren’t looking for an immersive app; they just want clean, readable information.
+The site consistently took **over one second** to become interactive. For a personal website, that delay felt wasteful. Most visitors aren’t looking for an immersive app; they just want clean, readable information.
 
-You can still see the archived version at *old.webark.in*, and you’ll immediately notice the difference.
+You can still see the archived version [here](https://old.webark.in), and you’ll immediately notice the difference.
 
 ---
 
 ## Why I Moved Away From Next.js
 
-Next.js wasn’t the villain here. It’s great for full-scale applications. But for a simple, mostly static portfolio, the abstractions—SSR, hydration, client-side bundles, routing layers, and build pipelines—added more complexity than benefit.
+Next.js wasn’t the villain here. It’s great for full-scale applications. But for a simple, mostly static website, the abstractions—SSR, hydration, client-side bundles, routing layers, and build pipelines—added more complexity than benefit.
 
 So I rebuilt everything using a simpler stack:
 
@@ -76,35 +76,33 @@ The page becomes visible almost instantly, and the asynchronous HTMX swaps feel 
 
 ## Lessons From the Rebuild
 
-### 1. Not every site needs a full framework
+1. Not every site needs a full framework; For mostly-static content, a minimal
+backend + progressive enhancement often wins in clarity and speed.
 
-For mostly-static content, a minimal backend + progressive enhancement often wins in clarity and speed.
+2. SSR is only fast when your data is local; If your render pipeline waits on
+third-party APIs, you're no longer doing “fast SSR”—you’re doing “SSR with
+built-in delays.”
 
-### 2. SSR is only fast when your data is local
+3. Interactivity doesn’t require an SPA; HTMX continues to prove that small,
+targeted interactions can replace entire client-side frameworks.
 
-If your render pipeline waits on third-party APIs, you're no longer doing “fast SSR”—you’re doing “SSR with built-in delays.”
-
-### 3. Interactivity doesn’t require an SPA
-
-HTMX continues to prove that small, targeted interactions can replace entire client-side frameworks.
-
-### 4. Perceived performance matters most
-
-Sending HTML quickly has a bigger impact than many deep optimizations that happen later.
+4. Perceived performance matters most; Sending HTML quickly has a bigger impact
+than many deep optimizations that happen later.
 
 ---
 
 ## The Final Result
 
-The new portfolio is dramatically faster, simpler, and lighter.
-On a slow 4G network, the old site took **over six seconds** to load.
-The new one loads in about **two seconds**, even under similar conditions.
+The new website is dramatically faster and lighter. It takes about **300 ms**
+to completely load on a fast connection, while the old one used to take over
+**2 seconds**. It makes a bigger difference on a slow 4G network, the old site
+takes **over 6 seconds** to load. The new one loads under **2 seconds**, under
+similar conditions.
 
 That improvement comes from:
 
-* A lean backend
-* An HTMX-powered loading model
-* ~10× less data transferred compared to the previous build
+* Simple HTMX-powered AJAX
+* ~10× less bloat transferred
 * No hydration, no bundlers, no labyrinth of abstractions
 
-The rebuild didn’t just improve the site—it clarified how I want to approach small web projects going forward: focus on speed, reduce moving parts, and keep the behavior predictable.
+The rebuild didn’t just improve the site, it clarified how I want to approach simple websites going forward: focus on speed, reduce moving parts, and keep the bloat out.
