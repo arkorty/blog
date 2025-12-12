@@ -2,7 +2,7 @@ Tags: #linux #gaming #wine #proton #lutris #steam
 
 ![Linux Gaming Setup](https://raw.githubusercontent.com/arkorty/blog/refs/heads/main/blob/linux-gaming-setup.jpeg "Linux Gaming Setup")
 
-**Co-authored by LLMs**
+**Proofread by LLM**
 
 Linux is a phenomenal operating system, and thanks to tools like **Wine**, **Proton**, and **Lutris**, playing your favorite Windows games is now easier than ever.  
 This guide walks you through everything you need to set up your Linux system for gaming — no Windows required.
