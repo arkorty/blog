@@ -1,48 +1,39 @@
 Tags: #domain #branding #dev #website
 
-Why I Chose webark.in
+# Why I Chose webark.in
 
-The Idea
+## The Idea
 
-I didn’t want a random dev-sounding domain. I wanted something short, meaningful, and mine.
+I didn’t want a random developer-sounding domain.  
+I wanted something short, personal, and easy to remember.
 
-webark = web + ark
+**webark = web + ark**
 
-web → what I build (internet, apps, systems)
+* **web** → what I build: websites, apps, and systems  
+* **ark** → derived from my name, Arkaprabha  
 
-ark → from my name Arkaprabha
-
-
-Simple. Personal. Easy to remember.
-
+Simple. Personal. Memorable.
 
 ---
 
-Why .in
+## Why I Chose `.in`
 
-I went with .in for very practical reasons:
+I went with the `.in` domain for practical reasons:
 
-Cheap → matters when you're running side projects
-
-Reliable → no issues with DNS or availability
-
-Indian identity → I’m building from India, so it fits
-
-
+* **Affordable** → important when running side projects  
+* **Reliable** → stable availability and DNS support  
+* **Indian identity** → I’m building from India, so it feels appropriate  
 
 ---
 
-That’s It
+## That’s Really It
 
-No overthinking.
+There wasn’t a huge branding strategy behind it.
 
-webark.in is just:
+`webark.in` is simply:
 
-what I do (web)
-
-who I am (ark)
-
-where I’m from (.in)
-
+* what I do → **web**  
+* who I am → **ark**  
+* where I’m from → **.in**  
 
 Good enough to start.
