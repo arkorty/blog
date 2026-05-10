@@ -1,5 +1,9 @@
 Tags: #domain #branding #dev #website
 
+![Brand Website Cover](https://raw.githubusercontent.com/arkorty/blog/refs/heads/main/blob/brand-website-cover.jpeg "Brand Website Cover")
+
+**Proofread by LLM**
+
 # Why I Chose webark.in
 
 ## The Idea
